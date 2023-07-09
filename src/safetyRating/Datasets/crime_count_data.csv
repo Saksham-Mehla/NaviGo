@@ -1,0 +1,874 @@
+,State,District,CrimeCount
+0,Andhra Pradesh,Anantapur,32011.0
+1,Andhra Pradesh,Chittoor,20486.0
+2,Andhra Pradesh,Cuddapah,41042.0
+3,Andhra Pradesh,East Godavari,30146.0
+4,Andhra Pradesh,Guntakal Railway,3002.0
+5,Andhra Pradesh,Guntur,34770.0
+6,Andhra Pradesh,Guntur Urban,19555.0
+7,Andhra Pradesh,Krishna,28771.0
+8,Andhra Pradesh,Kurnool,27216.0
+9,Andhra Pradesh,Nellore,25341.0
+10,Andhra Pradesh,Prakasham,28785.0
+11,Andhra Pradesh,Rajahmundry,13990.0
+12,Andhra Pradesh,Srikakulam,16104.0
+13,Andhra Pradesh,Tirupathi Urban,11243.0
+14,Andhra Pradesh,Vijayawada City,23776.0
+15,Andhra Pradesh,Vijayawada Railway,3972.0
+16,Andhra Pradesh,Visakha Rural,18983.0
+17,Andhra Pradesh,Visakhapatnam,25178.0
+18,Andhra Pradesh,Vizianagaram,14891.0
+19,Andhra Pradesh,West Godavari,34014.0
+20,Arunachal Pradesh,Anjaw,55.0
+21,Arunachal Pradesh,Changlang,506.0
+22,Arunachal Pradesh,Crime Branch,33.0
+23,Arunachal Pradesh,Dibang Valley,43.0
+24,Arunachal Pradesh,Kameng East,463.0
+25,Arunachal Pradesh,Kameng West,346.0
+26,Arunachal Pradesh,Kurung Kumey,219.0
+27,Arunachal Pradesh,Lohit,316.0
+28,Arunachal Pradesh,Longding,354.0
+29,Arunachal Pradesh,Lower Dibang Valley,291.0
+30,Arunachal Pradesh,Papum Pare City,2875.0
+31,Arunachal Pradesh,Papum Pare Rural,417.0
+32,Arunachal Pradesh,Siang East,1075.0
+33,Arunachal Pradesh,Siang Upper,117.0
+34,Arunachal Pradesh,Siang West,442.0
+35,Arunachal Pradesh,Subansiri Lower,204.0
+36,Arunachal Pradesh,Subansiri Upper,414.0
+37,Arunachal Pradesh,Tawang,193.0
+38,Arunachal Pradesh,Tirap,173.0
+39,Arunachal Pradesh,Namsai,405.0
+40,Arunachal Pradesh,Siang,154.0
+41,Arunachal Pradesh,Kamle,60.0
+42,Arunachal Pradesh,Kra Dadi,122.0
+43,Arunachal Pradesh,Lower Siang,149.0
+44,Arunachal Pradesh,Leparada,128.0
+45,Arunachal Pradesh,Shiyomi,72.0
+46,Arunachal Pradesh,Pakkessang,83.0
+47,Assam,BIEO,263.0
+48,Assam,Barpeta,24258.0
+49,Assam,Baksa,5844.0
+50,Assam,Bongaigaon,9971.0
+51,Assam,CID,70.0
+52,Assam,Cachar,22150.0
+53,Assam,Chirang,3618.0
+54,Assam,Darrang,14154.0
+55,Assam,Dhemaji,5920.0
+56,Assam,Dhubri,30170.0
+57,Assam,Dibrugarh,15398.0
+58,Assam,GRP,1908.0
+59,Assam,Goalpara,12192.0
+60,Assam,Golaghat,12146.0
+61,Assam,Guwahati City,80993.0
+62,Assam,Hailakandi,11196.0
+63,Assam,Hamren,764.0
+64,Assam,Jorhat,18968.0
+65,Assam,Kamrup,26602.0
+66,Assam,Karbi Anglong,3525.0
+67,Assam,Karimganj,11118.0
+68,Assam,Kokrajhar,5254.0
+69,Assam,Lakhimpur,13511.0
+70,Assam,Morigaon,13129.0
+71,Assam,Dima Hasao,1129.0
+72,Assam,Nagaon,25406.0
+73,Assam,Nalbari,9105.0
+74,Assam,RPO,208.0
+75,Assam,SOU,0.0
+76,Assam,STF,20.0
+77,Assam,Sibsagar,12470.0
+78,Assam,Sonitpur,12786.0
+79,Assam,Tinsukia,15748.0
+80,Assam,Udalguri,4857.0
+81,Assam,Sadia,1171.0
+82,Assam,Majuli,857.0
+83,Assam,Biswanath,5085.0
+84,Assam,Hojai,12003.0
+85,Assam,South Salmara,4102.0
+86,Assam,Charaideo,3160.0
+87,Bihar,Araria,20592.0
+88,Bihar,Arwal,4858.0
+89,Bihar,Aurangabad,15292.0
+90,Bihar,Bagaha,7789.0
+91,Bihar,Banka,14145.0
+92,Bihar,Begusarai,21613.0
+93,Bihar,Bettiah,22898.0
+94,Bihar,Bhabhua,11162.0
+95,Bihar,Bhagalpur,21465.0
+96,Bihar,Bhojpur,22770.0
+97,Bihar,Buxar,12706.0
+98,Bihar,Darbhanga,23376.0
+99,Bihar,Gaya,36967.0
+100,Bihar,Gopalganj,18848.0
+101,Bihar,Jamalpur Railway,1791.0
+102,Bihar,Jamui,12217.0
+103,Bihar,Jehanabad,11070.0
+104,Bihar,Katihar,17986.0
+105,Bihar,Katihar Railway,1324.0
+106,Bihar,Khagaria,13960.0
+107,Bihar,Kishanganj,8288.0
+108,Bihar,Lakhisarai,8460.0
+109,Bihar,Madhepura,16346.0
+110,Bihar,Madhubani,24030.0
+111,Bihar,Motihari,47587.0
+112,Bihar,Munger,11881.0
+113,Bihar,Muzaffarpur,49243.0
+114,Bihar,Muzaffarpur Railway,2486.0
+115,Bihar,Nalanda,33364.0
+116,Bihar,Naugachia,6379.0
+117,Bihar,Nawadah,19811.0
+118,Bihar,Patna,104955.0
+119,Bihar,Patna Railway,5462.0
+120,Bihar,Purnea,19363.0
+121,Bihar,Rohtas,24946.0
+122,Bihar,Saharsa,12862.0
+123,Bihar,Samastipur,23611.0
+124,Bihar,Saran,45135.0
+125,Bihar,Sheikhpura,4508.0
+126,Bihar,Sheohar,3785.0
+127,Bihar,Sitamarhi,23891.0
+128,Bihar,Siwan,22170.0
+129,Bihar,Supaul,14058.0
+130,Bihar,Vaishali,30505.0
+131,Bihar,Economic Offences Unit,16.0
+132,Bihar,Anti Terrorist Squad,0.0
+133,Chhattisgarh,Balod,5571.0
+134,Chhattisgarh,Balodbazar,14219.0
+135,Chhattisgarh,Balrampur,4213.0
+136,Chhattisgarh,Bemetra,5186.0
+137,Chhattisgarh,Bilaspur,27217.0
+138,Chhattisgarh,Bizapur,1469.0
+139,Chhattisgarh,Dantewara,1764.0
+140,Chhattisgarh,Dhamtari,4915.0
+141,Chhattisgarh,Durg,27855.0
+142,Chhattisgarh,Gariyaband,4159.0
+143,Chhattisgarh,GRP Raipur,2968.0
+144,Chhattisgarh,Jagdalpur,5471.0
+145,Chhattisgarh,Janjgir,13452.0
+146,Chhattisgarh,Jashpur,5060.0
+147,Chhattisgarh,Kabirdham,5916.0
+148,Chhattisgarh,Kanker,4243.0
+149,Chhattisgarh,Kondagaon,2627.0
+150,Chhattisgarh,Korba,10620.0
+151,Chhattisgarh,Koriya,7555.0
+152,Chhattisgarh,Mahasamund,7721.0
+153,Chhattisgarh,Mungali,6142.0
+154,Chhattisgarh,Narayanpur,1025.0
+155,Chhattisgarh,Raigarh,13344.0
+156,Chhattisgarh,Raipur,40037.0
+157,Chhattisgarh,Rajnandgaon,16649.0
+158,Chhattisgarh,Sarguja,7638.0
+159,Chhattisgarh,Sukma,1164.0
+160,Chhattisgarh,Surajpur,5965.0
+161,Goa,North Goa,5211.0
+162,Goa,South Goa,4482.0
+163,Goa,CID,275.0
+164,Gujarat,Ahmedabad City,91361.0
+165,Gujarat,Ahmedabad Rural,9802.0
+166,Gujarat,Amreli,6969.0
+167,Gujarat,Anand,13502.0
+168,Gujarat,Arvalli,6574.0
+169,Gujarat,Banaskantha,15951.0
+170,Gujarat,Bharuch,8650.0
+171,Gujarat,Bhavnagar,14725.0
+172,Gujarat,Botad,6656.0
+173,Gujarat,Chhotaudepur,3615.0
+174,Gujarat,CID Crime,172.0
+175,Gujarat,Dahod,8596.0
+176,Gujarat,Dang,609.0
+177,Gujarat,Devbhumi Dwarka,5498.0
+178,Gujarat,Gandhinagar,9807.0
+179,Gujarat,Gir Somnath,5070.0
+180,Gujarat,Jamnagar,9553.0
+181,Gujarat,Junagadh,9279.0
+182,Gujarat,Kachchh East(G),8764.0
+183,Gujarat,Kachchh West(B),7783.0
+184,Gujarat,Kheda,7926.0
+185,Gujarat,Mahisagar,3080.0
+186,Gujarat,Mehsana,14402.0
+187,Gujarat,Morbi,12887.0
+188,Gujarat,Narmada,3329.0
+189,Gujarat,Navsari,18519.0
+190,Gujarat,Panchmahal,8691.0
+191,Gujarat,Patan,8305.0
+192,Gujarat,Porbandar,4272.0
+193,Gujarat,Rajkot City,8511.0
+194,Gujarat,Rajkot Rural,9706.0
+195,Gujarat,Sabarkantha,9254.0
+196,Gujarat,Surat City,80483.0
+197,Gujarat,Surat Rural,15277.0
+198,Gujarat,Surendranagar,7701.0
+199,Gujarat,Tapi,4643.0
+200,Gujarat,Vadodara City,16483.0
+201,Gujarat,Vadodara Rural,11936.0
+202,Gujarat,Valsad,13497.0
+203,Gujarat,W.Rly Ahmedabad,1880.0
+204,Gujarat,W.Rly Vadodara,4274.0
+205,Haryana,Ambala,13395.0
+206,Haryana,Bhiwani,15052.0
+207,Haryana,Faridabad,40299.0
+208,Haryana,Fatehabad,11573.0
+209,Haryana,GRP,5467.0
+210,Haryana,Gurugram,52836.0
+211,Haryana,Hissar,15976.0
+212,Haryana,Jhajjar,12870.0
+213,Haryana,Jind,14690.0
+214,Haryana,Kaithal,11980.0
+215,Haryana,Karnal,23227.0
+216,Haryana,Kurukshetra,15006.0
+217,Haryana,Mahendergarh,9779.0
+218,Haryana,Nuh,11547.0
+219,Haryana,Palwal,14280.0
+220,Haryana,Panchkula,8967.0
+221,Haryana,Panipat,22557.0
+222,Haryana,Rewari,14718.0
+223,Haryana,Rohtak,21534.0
+224,Haryana,Sirsa,13146.0
+225,Haryana,Sonipat,18093.0
+226,Haryana,Yamunanagar,15908.0
+227,Haryana,Irrigation & Power,1948.0
+228,Haryana,Charkhi Dadri,4109.0
+229,Haryana,Hansi,5944.0
+230,Himachal Pradesh,Baddi,2880.0
+231,Himachal Pradesh,Bilaspur,4726.0
+232,Himachal Pradesh,Chamba,3040.0
+233,Himachal Pradesh,CID,225.0
+234,Himachal Pradesh,GRP,52.0
+235,Himachal Pradesh,Hamirpur,3123.0
+236,Himachal Pradesh,Kangra,10762.0
+237,Himachal Pradesh,Kinnaur,825.0
+238,Himachal Pradesh,Kullu,3865.0
+239,Himachal Pradesh,Lahaul & Spiti,250.0
+240,Himachal Pradesh,Mandi,9084.0
+241,Himachal Pradesh,Shimla,8326.0
+242,Himachal Pradesh,Sirmaur,4029.0
+243,Himachal Pradesh,Solan,2670.0
+244,Himachal Pradesh,Una,3276.0
+245,Himachal Pradesh,Cyber,0.0
+246,Jammu & Kashmir,Anantnag,3063.0
+247,Jammu & Kashmir,Awantipora,996.0
+248,Jammu & Kashmir,Bandipora,1643.0
+249,Jammu & Kashmir,Baramulla,3661.0
+250,Jammu & Kashmir,Budgam,4411.0
+251,Jammu & Kashmir,Crime Jammu,217.0
+252,Jammu & Kashmir,Crime Srinagar,117.0
+253,Jammu & Kashmir,Doda,2509.0
+254,Jammu & Kashmir,Ganderbal,1887.0
+255,Jammu & Kashmir,Handwara,2360.0
+256,Jammu & Kashmir,Jammu,15348.0
+257,Jammu & Kashmir,Kargil,464.0
+258,Jammu & Kashmir,Kathua,3528.0
+259,Jammu & Kashmir,Kishtwar,1344.0
+260,Jammu & Kashmir,Kulgam,2787.0
+261,Jammu & Kashmir,Kupwara,2340.0
+262,Jammu & Kashmir,Leh,850.0
+263,Jammu & Kashmir,Poonch,3209.0
+264,Jammu & Kashmir,Pulwama,1678.0
+265,Jammu & Kashmir,Railways Jammu,74.0
+266,Jammu & Kashmir,Railways Kashmir,53.0
+267,Jammu & Kashmir,Railways Katra,37.0
+268,Jammu & Kashmir,Rajouri,6621.0
+269,Jammu & Kashmir,Ramban,2697.0
+270,Jammu & Kashmir,Reasi,2311.0
+271,Jammu & Kashmir,Samba,3042.0
+272,Jammu & Kashmir,Shopian,1253.0
+273,Jammu & Kashmir,Sopore,2692.0
+274,Jammu & Kashmir,Srinagar,8888.0
+275,Jammu & Kashmir,Udhampur,4278.0
+276,Jharkhand,Bokaro,12338.0
+277,Jharkhand,Chaibasa,3621.0
+278,Jharkhand,Chatra,6173.0
+279,Jharkhand,Deoghar,12185.0
+280,Jharkhand,Dhanbad,13084.0
+281,Jharkhand,Dhanbad Railway,1720.0
+282,Jharkhand,Dumka,5385.0
+283,Jharkhand,Garhwa,9634.0
+284,Jharkhand,Giridih,12387.0
+285,Jharkhand,Godda,6028.0
+286,Jharkhand,Gumla,4067.0
+287,Jharkhand,Hazaribagh,12292.0
+288,Jharkhand,Jamshedpur,15300.0
+289,Jharkhand,Jamshedpur Railway,806.0
+290,Jharkhand,Jamtara,3013.0
+291,Jharkhand,Khunti,1540.0
+292,Jharkhand,Koderma,4183.0
+293,Jharkhand,Latehar,2872.0
+294,Jharkhand,Lohardagga,2761.0
+295,Jharkhand,Pakur,2359.0
+296,Jharkhand,Palamu,10577.0
+297,Jharkhand,Ramgarh,4019.0
+298,Jharkhand,Ranchi,23540.0
+299,Jharkhand,Sahebganj,12756.0
+300,Jharkhand,Saraikela,5084.0
+301,Jharkhand,Simdega,1564.0
+302,Karnataka,Bagalkot,8214.0
+303,Karnataka,Bengaluru City,108781.0
+304,Karnataka,Bengaluru District,22079.0
+305,Karnataka,Belagavi District,16938.0
+306,Karnataka,Ballari,13291.0
+307,Karnataka,Bidar,13522.0
+308,Karnataka,Vijayapura,10544.0
+309,Karnataka,Chikkaballapura,8879.0
+310,Karnataka,Chamarajnagar,7284.0
+311,Karnataka,Chikkamagaluru,11129.0
+312,Karnataka,Chitradurga,12886.0
+313,Karnataka,Dakshina Kannada,7173.0
+314,Karnataka,Davanagere,12206.0
+315,Karnataka,Dharwad,3462.0
+316,Karnataka,Gadag,4084.0
+317,Karnataka,Kalaburgi,9796.0
+318,Karnataka,Hassan,19490.0
+319,Karnataka,Haveri,8263.0
+320,Karnataka,Hubballi Dharwad City,5804.0
+321,Karnataka,K.G.F.,2975.0
+322,Karnataka,Kodagu,6254.0
+323,Karnataka,Kolar,7345.0
+324,Karnataka,Koppal,7095.0
+325,Karnataka,Mandya,20524.0
+326,Karnataka,Mangaluru City,9577.0
+327,Karnataka,Mysuru City,10698.0
+328,Karnataka,Mysuru District,15805.0
+329,Karnataka,Raichur,9737.0
+330,Karnataka,K.Railways,7126.0
+331,Karnataka,Ramanagara,14292.0
+332,Karnataka,Shimoga,18098.0
+333,Karnataka,Tumakuru,20404.0
+334,Karnataka,Udupi,9409.0
+335,Karnataka,Uttara Kannada,9917.0
+336,Karnataka,Yadgiri,5551.0
+337,Karnataka,Belagavi City,6757.0
+338,Karnataka,Kalaburgi City,6579.0
+339,Kerala,Alapuzha,66191.0
+340,Kerala,Ernakulam Commr.,56874.0
+341,Kerala,Ernakulam Rural,57908.0
+342,Kerala,Idukki,26480.0
+343,Kerala,Kannur,24345.0
+344,Kerala,Kasargod,13440.0
+345,Kerala,Kollam Commr.,28656.0
+346,Kerala,Kollam Rural,33609.0
+347,Kerala,Kottayam,36671.0
+348,Kerala,Kozhikode Commr.,19874.0
+349,Kerala,Kozhikode Rural,28349.0
+350,Kerala,Malappuram,28273.0
+351,Kerala,Palakkad,38620.0
+352,Kerala,Pathanamthitta,24113.0
+353,Kerala,Railways,1301.0
+354,Kerala,Thrissur Commr.,26465.0
+355,Kerala,Thrissur Rural,22607.0
+356,Kerala,Trivandrum Commr.,86590.0
+357,Kerala,Trivandrum Rural,63242.0
+358,Kerala,Wayanadu,10299.0
+359,Kerala,Crime Branch,1866.0
+360,Madhya Pradesh,Agar,6564.0
+361,Madhya Pradesh,Alirajpur,9054.0
+362,Madhya Pradesh,Anuppur,9260.0
+363,Madhya Pradesh,Ashok Nagar,11123.0
+364,Madhya Pradesh,Balaghat,17491.0
+365,Madhya Pradesh,Barwani,10643.0
+366,Madhya Pradesh,Betul,17101.0
+367,Madhya Pradesh,Bhind,20441.0
+368,Madhya Pradesh,Bhopal,67393.0
+369,Madhya Pradesh,Bhopal Railway,12556.0
+370,Madhya Pradesh,Burhanpur,6300.0
+371,Madhya Pradesh,Chhatarpur,18644.0
+372,Madhya Pradesh,Chhindwara,17583.0
+373,Madhya Pradesh,Damoh,15616.0
+374,Madhya Pradesh,Datia,10377.0
+375,Madhya Pradesh,Dewas,27231.0
+376,Madhya Pradesh,Dhar,29112.0
+377,Madhya Pradesh,Dindori,8241.0
+378,Madhya Pradesh,Guna,20161.0
+379,Madhya Pradesh,Gwalior,45248.0
+380,Madhya Pradesh,Harda,7787.0
+381,Madhya Pradesh,Hoshangabad,17369.0
+382,Madhya Pradesh,Indore,74802.0
+383,Madhya Pradesh,Indore Railway,2635.0
+384,Madhya Pradesh,Jabalpur,48210.0
+385,Madhya Pradesh,Jabalpur Railway,6037.0
+386,Madhya Pradesh,Jhabua,8422.0
+387,Madhya Pradesh,Katni,17466.0
+388,Madhya Pradesh,Khandwa,10055.0
+389,Madhya Pradesh,Khargone,17599.0
+390,Madhya Pradesh,Mandla,6966.0
+391,Madhya Pradesh,Mandsaur,12088.0
+392,Madhya Pradesh,Morena,25543.0
+393,Madhya Pradesh,Narsinghpur,12839.0
+394,Madhya Pradesh,Neemuch,9280.0
+395,Madhya Pradesh,Panna,8501.0
+396,Madhya Pradesh,Raisen,17396.0
+397,Madhya Pradesh,Rajgarh,17799.0
+398,Madhya Pradesh,Ratlam,20072.0
+399,Madhya Pradesh,Rewa,30298.0
+400,Madhya Pradesh,Sagar,32142.0
+401,Madhya Pradesh,Satna,25617.0
+402,Madhya Pradesh,Seoni,11794.0
+403,Madhya Pradesh,Shahdol,17749.0
+404,Madhya Pradesh,Shajapur,10914.0
+405,Madhya Pradesh,Sheopur,4897.0
+406,Madhya Pradesh,Shivpuri,17063.0
+407,Madhya Pradesh,Sidhi,12834.0
+408,Madhya Pradesh,Sehore,15975.0
+409,Madhya Pradesh,Singrauli,11869.0
+410,Madhya Pradesh,Tikamgarh,11958.0
+411,Madhya Pradesh,Ujjain,37018.0
+412,Madhya Pradesh,Umaria,6187.0
+413,Madhya Pradesh,Vidisha,19388.0
+414,Madhya Pradesh,Cyber Crime Cell,0.0
+415,Madhya Pradesh,Niwari,5925.0
+416,Maharashtra,Ahmednagar,48890.0
+417,Maharashtra,Akola,19748.0
+418,Maharashtra,Amravati Commr.,18798.0
+419,Maharashtra,Amravati Rural,18625.0
+420,Maharashtra,Aurangabad Commr.,22482.0
+421,Maharashtra,Aurangabad Rural,17829.0
+422,Maharashtra,Beed,17984.0
+423,Maharashtra,Bhandara,11515.0
+424,Maharashtra,Buldhana,29544.0
+425,Maharashtra,Chandrapur,26235.0
+426,Maharashtra,Dhule,15873.0
+427,Maharashtra,Gadchiroli,5067.0
+428,Maharashtra,Gondia,10547.0
+429,Maharashtra,Hingoli,11151.0
+430,Maharashtra,Jalgaon,23989.0
+431,Maharashtra,Jalna,17932.0
+432,Maharashtra,Kolhapur,24158.0
+433,Maharashtra,Latur,18362.0
+434,Maharashtra,Mumbai Commr.,153457.0
+435,Maharashtra,Mumbai Railway,133715.0
+436,Maharashtra,Nagpur Commr.,40074.0
+437,Maharashtra,Nagpur Railway,12433.0
+438,Maharashtra,Nagpur Rural,33254.0
+439,Maharashtra,Nanded,26024.0
+440,Maharashtra,Nandurbar,8625.0
+441,Maharashtra,Nasik Commr.,22621.0
+442,Maharashtra,Nasik Rural,30301.0
+443,Maharashtra,Navi Mumbai,22932.0
+444,Maharashtra,Osmanabad,14065.0
+445,Maharashtra,Palghar,27418.0
+446,Maharashtra,Parbhani,16832.0
+447,Maharashtra,Pune Commr.,52846.0
+448,Maharashtra,Pune Railway,9095.0
+449,Maharashtra,Pune Rural,45517.0
+450,Maharashtra,Raigad,11042.0
+451,Maharashtra,Ratnagiri,7959.0
+452,Maharashtra,Sangli,28292.0
+453,Maharashtra,Satara,26161.0
+454,Maharashtra,Sindhudurg,4985.0
+455,Maharashtra,Solapur Commr.,12668.0
+456,Maharashtra,Solapur Rural,38409.0
+457,Maharashtra,Thane Commr.,48765.0
+458,Maharashtra,Thane Rural,17515.0
+459,Maharashtra,Wardha,18036.0
+460,Maharashtra,Washim,11420.0
+461,Maharashtra,Yavatmal,27546.0
+462,Maharashtra,Pimpri Chinchwad City,45465.0
+463,Maharashtra,Aurangabad Railway,19739.0
+464,Manipur,Bishnupur,908.0
+465,Manipur,Chandel,50.0
+466,Manipur,Churachandpur,556.0
+467,Manipur,CID,128.0
+468,Manipur,Imphal East,2348.0
+469,Manipur,Imphal West,3905.0
+470,Manipur,Senapati,121.0
+471,Manipur,Tamenglong,107.0
+472,Manipur,Thoubal,1415.0
+473,Manipur,Ukhrul,102.0
+474,Manipur,Kakching,450.0
+475,Manipur,Kamjong,11.0
+476,Manipur,Kangpokpi,223.0
+477,Manipur,Jiribam,145.0
+478,Manipur,Noney,201.0
+479,Manipur,Pherzawl,21.0
+480,Manipur,Tengnoupal,176.0
+481,Manipur,Narcotic,0.0
+482,Meghalaya,Garo Hills East,395.0
+483,Meghalaya,Garo Hills North,397.0
+484,Meghalaya,Garo Hills South,327.0
+485,Meghalaya,Garo Hills South West,384.0
+486,Meghalaya,Garo Hills West,1375.0
+487,Meghalaya,Jaintia Hills West,713.0
+488,Meghalaya,Jaintia Hills East,811.0
+489,Meghalaya,Khasi Hills East,5049.0
+490,Meghalaya,Khasi Hills South West,157.0
+491,Meghalaya,Khasi Hills West,481.0
+492,Meghalaya,Ri-Bhoi,1501.0
+493,Meghalaya,Cyber Cell,8.0
+494,Mizoram,Aizawl,5898.0
+495,Mizoram,Champhai,335.0
+496,Mizoram,Kolasib,1034.0
+497,Mizoram,Lawngtlai,257.0
+498,Mizoram,Lunglei,727.0
+499,Mizoram,Mamit,472.0
+500,Mizoram,Saiha,249.0
+501,Mizoram,Serchhip,249.0
+502,Mizoram,Spl Narcotic,0.0
+503,Nagaland,Dimapur,2620.0
+504,Nagaland,Kiphire,24.0
+505,Nagaland,Kohima,384.0
+506,Nagaland,Longleng,89.0
+507,Nagaland,Mokokchung,177.0
+508,Nagaland,Mon,365.0
+509,Nagaland,Peren,71.0
+510,Nagaland,Phek,62.0
+511,Nagaland,Tuensang,149.0
+512,Nagaland,Wokha,116.0
+513,Nagaland,Zunheboto,107.0
+514,Odisha,Angul,14491.0
+515,Odisha,Balasore,18566.0
+516,Odisha,Baragarh,9824.0
+517,Odisha,Berhampur,7321.0
+518,Odisha,Bhadrak,12539.0
+519,Odisha,Bolangir,15631.0
+520,Odisha,Boudh,3034.0
+521,Odisha,Cuttack,15501.0
+522,Odisha,DCP BBSR,24875.0
+523,Odisha,DCP CTC,18644.0
+524,Odisha,Deogarh,2306.0
+525,Odisha,Dhenkanal,9295.0
+526,Odisha,Gajapati,2439.0
+527,Odisha,Ganjam,14112.0
+528,Odisha,Jagatsinghpur,8805.0
+529,Odisha,Jajpur,18983.0
+530,Odisha,Jharsuguda,6247.0
+531,Odisha,Kalahandi,10368.0
+532,Odisha,Kandhamal,4316.0
+533,Odisha,Kendrapara,11096.0
+534,Odisha,Keonjhar,12852.0
+535,Odisha,Khurda,6676.0
+536,Odisha,Koraput,7967.0
+537,Odisha,Malkangiri,3765.0
+538,Odisha,Mayurbhanj,12981.0
+539,Odisha,Nayagarh,7660.0
+540,Odisha,Nabarangpur,5304.0
+541,Odisha,Nuapada,5159.0
+542,Odisha,Puri,18256.0
+543,Odisha,Rayagada,6053.0
+544,Odisha,Rourkela,9623.0
+545,Odisha,Sambalpur,17898.0
+546,Odisha,Sonepur,4083.0
+547,Odisha,SRP(Cuttack),3279.0
+548,Odisha,SRP(Rourkela),2241.0
+549,Odisha,Sundargarh,7048.0
+550,Odisha,CID CB,352.0
+551,Punjab,Amritsar Rural,5684.0
+552,Punjab,Barnala,4349.0
+553,Punjab,Batala,3645.0
+554,Punjab,Bathinda,8416.0
+555,Punjab,CP Amritsar,9882.0
+556,Punjab,CP Jalandhar,6377.0
+557,Punjab,CP Ludhiana,19426.0
+558,Punjab,Faridkot,3323.0
+559,Punjab,Fatehgarh Sahib,4096.0
+560,Punjab,Fazilka,4291.0
+561,Punjab,Ferozepur,5132.0
+562,Punjab,GRP,2272.0
+563,Punjab,Gurdaspur,2984.0
+564,Punjab,Hoshiarpur,6970.0
+565,Punjab,Jalandhar Rural,5117.0
+566,Punjab,Kapurthala,6305.0
+567,Punjab,Khanna,3931.0
+568,Punjab,Ludhiana Rural,3594.0
+569,Punjab,Mansa,4279.0
+570,Punjab,Moga,4719.0
+571,Punjab,Muktsar,5073.0
+572,Punjab,Pathankot,2068.0
+573,Punjab,Patiala,12747.0
+574,Punjab,Ropar,4377.0
+575,Punjab,Sangrur,10170.0
+576,Punjab,SAS Nagar,10601.0
+577,Punjab,SBS Nagar,3418.0
+578,Punjab,Tarn Taran,5786.0
+579,Punjab,Bureau of Investigation,61.0
+580,Punjab,Intelligence Wing,3.0
+581,Punjab,NRI Wing,689.0
+582,Punjab,Special Task Force,4.0
+583,Rajasthan,Ajmer,36580.0
+584,Rajasthan,Alwar,33545.0
+585,Rajasthan,Banswara,13475.0
+586,Rajasthan,Baran,18825.0
+587,Rajasthan,Barmer,18904.0
+588,Rajasthan,Bharatpur,34525.0
+589,Rajasthan,Bhilwara,27982.0
+590,Rajasthan,Bikaner,17215.0
+591,Rajasthan,Bundi,14506.0
+592,Rajasthan,Chittorgarh,18619.0
+593,Rajasthan,Churu,14029.0
+594,Rajasthan,Dausa,17161.0
+595,Rajasthan,Dholpur,14733.0
+596,Rajasthan,Dungarpur,8526.0
+597,Rajasthan,GRP Ajmer,5698.0
+598,Rajasthan,GRP Jodhpur,1266.0
+599,Rajasthan,Ganganagar,23753.0
+600,Rajasthan,Hanumangarh,17201.0
+601,Rajasthan,Jaipur East,44393.0
+602,Rajasthan,Jaipur North,16275.0
+603,Rajasthan,Jaipur Rural,25283.0
+604,Rajasthan,Jaipur South,33224.0
+605,Rajasthan,Jaipur West,35021.0
+606,Rajasthan,Jaisalmer,7648.0
+607,Rajasthan,Jalore,13267.0
+608,Rajasthan,Jhalawar,20037.0
+609,Rajasthan,Jhunjhunu,21053.0
+610,Rajasthan,Jodhpur East,13841.0
+611,Rajasthan,Jodhpur West,15807.0
+612,Rajasthan,Jodhpur Rural,15909.0
+613,Rajasthan,Karauli,13293.0
+614,Rajasthan,Kota City,22987.0
+615,Rajasthan,Kota Rural,8484.0
+616,Rajasthan,Nagaur,22209.0
+617,Rajasthan,Pali,21260.0
+618,Rajasthan,Pratapgarh,9173.0
+619,Rajasthan,Rajsamand,14278.0
+620,Rajasthan,Sawai Madhopur,16829.0
+621,Rajasthan,Sikar,28431.0
+622,Rajasthan,Sirohi,8913.0
+623,Rajasthan,Tonk,20580.0
+624,Rajasthan,Udaipur,31673.0
+625,Rajasthan,Jaipur Metro,0.0
+626,Rajasthan,SCRB,0.0
+627,Rajasthan,SOG,96.0
+628,Rajasthan,SSB,0.0
+629,Rajasthan,Jaipur Crime,435.0
+630,Rajasthan,Bhiwadi,28346.0
+631,Sikkim,East,1338.0
+632,Sikkim,North,158.0
+633,Sikkim,South,886.0
+634,Sikkim,West,234.0
+635,Tamil Nadu,Ariyalur,6379.0
+636,Tamil Nadu,Chennai,73203.0
+637,Tamil Nadu,Coimbatore,18010.0
+638,Tamil Nadu,Coimbatore City,10657.0
+639,Tamil Nadu,Cuddalore,24719.0
+640,Tamil Nadu,Dharmapuri,11079.0
+641,Tamil Nadu,Dindigul,20163.0
+642,Tamil Nadu,Erode,17427.0
+643,Tamil Nadu,Kanchipuram,24936.0
+644,Tamil Nadu,Kanyakumari,20573.0
+645,Tamil Nadu,Karur,8024.0
+646,Tamil Nadu,Krishnagiri,15645.0
+647,Tamil Nadu,Madurai,16514.0
+648,Tamil Nadu,Madurai City,13614.0
+649,Tamil Nadu,Nagapattinam,14658.0
+650,Tamil Nadu,Namakkal,12793.0
+651,Tamil Nadu,Nilgiris,2579.0
+652,Tamil Nadu,Perambalur,4374.0
+653,Tamil Nadu,Pudukottai,12593.0
+654,Tamil Nadu,Ramnathapuram,13885.0
+655,Tamil Nadu,Railway Chennai,16641.0
+656,Tamil Nadu,Railway Trichy,2436.0
+657,Tamil Nadu,Salem,18686.0
+658,Tamil Nadu,Salem City,9413.0
+659,Tamil Nadu,Sivagangai,16774.0
+660,Tamil Nadu,Thanjavur,22743.0
+661,Tamil Nadu,Theni,13729.0
+662,Tamil Nadu,Thirunelveli,38777.0
+663,Tamil Nadu,Thirunelveli City,4687.0
+664,Tamil Nadu,Thiruvallur,16009.0
+665,Tamil Nadu,Thiruvannamalai,16179.0
+666,Tamil Nadu,Thiruvarur,11141.0
+667,Tamil Nadu,Thoothukudi,17628.0
+668,Tamil Nadu,Tiruppur,15520.0
+669,Tamil Nadu,Tiruppur City,7072.0
+670,Tamil Nadu,Trichy,14486.0
+671,Tamil Nadu,Trichy City,9214.0
+672,Tamil Nadu,Vellore,29207.0
+673,Tamil Nadu,Villupuram,30633.0
+674,Tamil Nadu,Virudhunagar,12873.0
+675,Tamil Nadu,Cyber Cell,22.0
+676,Tamil Nadu,Other Units,0.0
+677,Telangana,Cyberabad Commissionerate,62881.0
+678,Telangana,Hyderabad Commissionerate,58985.0
+679,Telangana,Karimnagar Commissionerate,11901.0
+680,Telangana,Khammam Commissionerate,18408.0
+681,Telangana,Nizamabad Commissionerate,16257.0
+682,Telangana,Rachakonda Commissionerate,56634.0
+683,Telangana,Ramagundam Commissionerate,20184.0
+684,Telangana,Siddipet Commissionerate,13510.0
+685,Telangana,Warangal Commissionerate,23367.0
+686,Telangana,Adilabad,5626.0
+687,Telangana,Bhadradri Kothagudem,13105.0
+688,Telangana,Jagityal,9882.0
+689,Telangana,Jayashankar Bhupalpalli,5442.0
+690,Telangana,Jogulamba Gadwal,5839.0
+691,Telangana,Kamareddy ,8813.0
+692,Telangana,Kumaram Bheem Asifabad,5250.0
+693,Telangana,Mahabubabad,6876.0
+694,Telangana,Mahabubnagar,8066.0
+695,Telangana,Medak,6751.0
+696,Telangana,Nagarkurnool,7141.0
+697,Telangana,Nalgonda,17316.0
+698,Telangana,Nirmal,5840.0
+699,Telangana,Rajanna Siricilla,5765.0
+700,Telangana,Sangareddy,13927.0
+701,Telangana,Suryapet,14309.0
+702,Telangana,Vikarabad,8227.0
+703,Telangana,Wanaparthy,4514.0
+704,Telangana,Railway Police Secunderabad,5764.0
+705,Telangana,Mulug,2785.0
+706,Telangana,Narayanpet,3456.0
+707,Tripura,Dhalai,1223.0
+708,Tripura,Gomati,2225.0
+709,Tripura,GRP,64.0
+710,Tripura,Kowai,1596.0
+711,Tripura,North,1487.0
+712,Tripura,Sipahijala,2584.0
+713,Tripura,South,2735.0
+714,Tripura,Unakoti,1307.0
+715,Tripura,West,8200.0
+716,Uttar Pradesh,Agra,33988.0
+717,Uttar Pradesh,Aligarh,26471.0
+718,Uttar Pradesh,Prayagraj,59139.0
+719,Uttar Pradesh,Ambedkar Nagar,14230.0
+720,Uttar Pradesh,Amethi,16042.0
+721,Uttar Pradesh,Amroha,8140.0
+722,Uttar Pradesh,Auraiya,8183.0
+723,Uttar Pradesh,Azamgarh,15262.0
+724,Uttar Pradesh,Badaun,11780.0
+725,Uttar Pradesh,Baghpat,8745.0
+726,Uttar Pradesh,Bahraich,28273.0
+727,Uttar Pradesh,Ballia,6193.0
+728,Uttar Pradesh,Balrampur,7047.0
+729,Uttar Pradesh,Banda,6843.0
+730,Uttar Pradesh,Barabanki,21275.0
+731,Uttar Pradesh,Bareilly,27507.0
+732,Uttar Pradesh,Basti,7769.0
+733,Uttar Pradesh,Bijnor,14892.0
+734,Uttar Pradesh,Bulandshahar,26549.0
+735,Uttar Pradesh,Chandoli,7742.0
+736,Uttar Pradesh,Chitrakoot,4204.0
+737,Uttar Pradesh,Deoria,12252.0
+738,Uttar Pradesh,Etah,17159.0
+739,Uttar Pradesh,Etawah,8970.0
+740,Uttar Pradesh,Ayodhya,19070.0
+741,Uttar Pradesh,Fatehgarh,8389.0
+742,Uttar Pradesh,Fatehpur,10913.0
+743,Uttar Pradesh,Firozabad,16350.0
+744,Uttar Pradesh,GRP,24577.0
+745,Uttar Pradesh,Gautambudh Nagar,41216.0
+746,Uttar Pradesh,Ghaziabad,54094.0
+747,Uttar Pradesh,Ghazipur,11553.0
+748,Uttar Pradesh,Gonda,12192.0
+749,Uttar Pradesh,Gorakhpur,25512.0
+750,Uttar Pradesh,Hamirpur,5567.0
+751,Uttar Pradesh,Hapur,9286.0
+752,Uttar Pradesh,Hardoi,27699.0
+753,Uttar Pradesh,Hathras,8839.0
+754,Uttar Pradesh,Jalaun,10703.0
+755,Uttar Pradesh,Jaunpur,27000.0
+756,Uttar Pradesh,Jhansi,13724.0
+757,Uttar Pradesh,Kannauj,8109.0
+758,Uttar Pradesh,Kanpur Dehat,16419.0
+759,Uttar Pradesh,Kanpur Nagar,31807.0
+760,Uttar Pradesh,Kasganj,7794.0
+761,Uttar Pradesh,Kaushambi,7229.0
+762,Uttar Pradesh,Khiri,27554.0
+763,Uttar Pradesh,Kushi Nagar,14621.0
+764,Uttar Pradesh,Lalitpur,4536.0
+765,Uttar Pradesh,Lucknow,84274.0
+766,Uttar Pradesh,Maharajganj,6126.0
+767,Uttar Pradesh,Mahoba,3748.0
+768,Uttar Pradesh,Mainpuri,9862.0
+769,Uttar Pradesh,Mathura,22840.0
+770,Uttar Pradesh,Mau,12431.0
+771,Uttar Pradesh,Meerut,39720.0
+772,Uttar Pradesh,Mirzapur,8131.0
+773,Uttar Pradesh,Moradabad,19279.0
+774,Uttar Pradesh,Muzaffarnagar,
+775,Uttar Pradesh,Pilibhit,12188.0
+776,Uttar Pradesh,Pratapgarh,17731.0
+777,Uttar Pradesh,Raibareilly,28549.0
+778,Uttar Pradesh,Rampur,9823.0
+779,Uttar Pradesh,Saharanpur,15406.0
+780,Uttar Pradesh,Sambhal,9848.0
+781,Uttar Pradesh,Sant Kabirnagar,4787.0
+782,Uttar Pradesh,Shahjahanpur,19974.0
+783,Uttar Pradesh,Shamli,5420.0
+784,Uttar Pradesh,Shrawasti,3576.0
+785,Uttar Pradesh,Sidharthnagar,4035.0
+786,Uttar Pradesh,Sitapur,32996.0
+787,Uttar Pradesh,Sonbhadra,6520.0
+788,Uttar Pradesh,Bhadohi,4788.0
+789,Uttar Pradesh,Sultanpur,28812.0
+790,Uttar Pradesh,Unnao,18124.0
+791,Uttar Pradesh,Varanasi,44380.0
+792,Uttarakhand,Almora,366.0
+793,Uttarakhand,Bageshwar,446.0
+794,Uttarakhand,Chamoli,438.0
+795,Uttarakhand,Champawat,460.0
+796,Uttarakhand,Dehradun,9937.0
+797,Uttarakhand,Haridwar,12288.0
+798,Uttarakhand,Nainital,5194.0
+799,Uttarakhand,Pauri Garhwal,1148.0
+800,Uttarakhand,Pithoragarh,732.0
+801,Uttarakhand,Rudra Prayag,281.0
+802,Uttarakhand,Tehri Garhwal,1108.0
+803,Uttarakhand,Udhamsingh Nagar,10262.0
+804,Uttarakhand,Uttarkashi,506.0
+805,Uttarakhand,GRP,450.0
+806,West Bengal,Alipurduar,7777.0
+807,West Bengal,Asansol-Durgapur PC,13448.0
+808,West Bengal,Bankura,8607.0
+809,West Bengal,Barrackpur PC,30641.0
+810,West Bengal,Bidhannagar PC,8276.0
+811,West Bengal,Birbhum,14130.0
+812,West Bengal,Coochbehar,8368.0
+813,West Bengal,Dakshin Dinajpur,6026.0
+814,West Bengal,Darjeeling,4061.0
+815,West Bengal,Hooghly Rural Police,12927.0
+816,West Bengal,Howrah GRP,2020.0
+817,West Bengal,Howrah PC,13733.0
+818,West Bengal,Howrah Rural,18704.0
+819,West Bengal,Jalpaiguri,7427.0
+820,West Bengal,Jhargram,3061.0
+821,West Bengal,Kharagpur GRP,1601.0
+822,West Bengal,Kolkata,78567.0
+823,West Bengal,Malda,24737.0
+824,West Bengal,Murshidabad,45272.0
+825,West Bengal,Nadia,24129.0
+826,West Bengal,Paschim Medinipur,21144.0
+827,West Bengal,Purab Medinipur,20228.0
+828,West Bengal,Purulia,6564.0
+829,West Bengal,Sealdah GRP,2315.0
+830,West Bengal,Siliguri GRP,505.0
+831,West Bengal,Siliguri PC,15226.0
+832,West Bengal,Uttar Dinajpur,15258.0
+833,West Bengal,Baruipur Police,32521.0
+834,West Bengal,Chandannagar PC,8109.0
+835,West Bengal,Diamond Harbour Police,15762.0
+836,West Bengal,Kalimpong,1247.0
+837,West Bengal,Purba Bardhaman,17574.0
+838,West Bengal,Sundarban Police,12665.0
+839,West Bengal,Barasat,32983.0
+840,West Bengal,Basirhat,13993.0
+841,A&N Islands,South Andaman,1768.0
+842,A&N Islands,North & Middle Andaman,480.0
+843,A&N Islands,Nicobar,98.0
+844,Chandigarh,Chandigarh,10605.0
+845,D&N Haveli,D&N Haveli,926.0
+846,Daman & Diu,Daman,1010.0
+847,Daman & Diu,Diu,262.0
+848,Delhi UT,Central,50649.0
+849,Delhi UT,East,86784.0
+850,Delhi UT,EOW,1156.0
+851,Delhi UT,IGI Airport,2947.0
+852,Delhi UT,Metro,27391.0
+853,Delhi UT,New Delhi,14243.0
+854,Delhi UT,North,62656.0
+855,Delhi UT,North-East,89639.0
+856,Delhi UT,North-West,97674.0
+857,Delhi UT,Outer,88684.0
+858,Delhi UT,RAILWAY,22055.0
+859,Delhi UT,South,91837.0
+860,Delhi UT,South-East,92342.0
+861,Delhi UT,South-West,61394.0
+862,Delhi UT,Spl Cell,441.0
+863,Delhi UT,SPUWAC,168.0
+864,Delhi UT,Vigilance,0.0
+865,Delhi UT,West,90099.0
+866,Delhi UT,Rohini,88825.0
+867,Delhi UT,Shahdara,71033.0
+868,Delhi UT,Dwarka,95793.0
+869,Delhi UT,Outer North,44947.0
+870,Lakshadweep,Lakshadweep,439.0
+871,Puducherry,Karaikal,0.0
+872,Puducherry,Puducherry,12836.0
