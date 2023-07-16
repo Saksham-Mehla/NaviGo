@@ -86,7 +86,7 @@ export const Carousel = (props) => {
         }}
         scrollEventThrottle={200}
         pagingEnabled
-        decelerationRate="fast"
+        decelerationRate='fast'
       >
         {items.map((item, index) => {
           return (

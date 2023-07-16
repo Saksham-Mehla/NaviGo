@@ -63,9 +63,9 @@ export const FromToVia = (props) => {
 			<View style={styles.container}>
 				<Line />
 				<View style={{height: '100%', alignItems: 'flex-start', justifyContent: 'center', flexWrap: 'nowrap', overflow:'hidden',}}>
-					<Text style={styles.textLarge}>  {props.from}</Text>
+					<Text style={styles.textLarge}>  {props.from}...</Text>
 					<Text style={styles.textSmall}>  via {props.via}</Text>
-					<Text style={styles.textLarge}>  {props.to}</Text>
+					<Text style={styles.textLarge}>  {props.to}...</Text>
 				</View>
 			</View>
 		);
@@ -75,9 +75,9 @@ export const FromToVia = (props) => {
 			<View style={styles.container}>
 				<Line />
 				<View style={{height: '100%', alignItems: 'flex-start', justifyContent: 'center', flexWrap: 'nowrap', overflow:'hidden',}}>
-					<Text style={styles.textLarge}>  {props.from}</Text>
+					<Text style={styles.textLarge}>  {props.from}...</Text>
 					<Text style={styles.textSmall}>  via {props.via}</Text>
-					<Text style={styles.textLarge}>  {props.to}</Text>
+					<Text style={styles.textLarge}>  {props.to}...</Text>
 				</View>
 				
 

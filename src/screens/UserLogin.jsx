@@ -1,15 +1,12 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {
 	View, 
 	Text,
-	TextInput,
-	Button, 
 	StyleSheet, 
 	Image,
 } from 'react-native';
 
-import SignupForm from '../components/SignupForm';
-
+import LoginForm from '../components/LoginForm';
 
 const styles = StyleSheet.create({
 	container: {
@@ -28,18 +25,19 @@ const styles = StyleSheet.create({
 });
 
 
-const UserReg = ({navigation}) => {
-
+const UserLogin = ({navigation}) => {
   return (
     <View style={styles.container}>
-      <View style={{justifyContent: 'center', alignItems: 'center', flexDirection: 'row', marginBottom: 20,}}>
+    	<View style={{justifyContent: 'center', alignItems: 'center', flexDirection: 'row', marginBottom: 20,}}>
     		  <Text style={styles.title}>Welcome to Navi</Text>
     		  <Image style={{height:40, width:40,}} source={require('../assets/images/logo.png')}/>
     		  <Text style={styles.title}>o</Text>
     	</View>
-      <SignupForm nav={navigation}/>
+      <LoginForm nav={navigation}/>
     </View>
   );
 };
 
-export default UserReg;
+export default UserLogin;
+
+

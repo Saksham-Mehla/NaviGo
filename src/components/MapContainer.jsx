@@ -1,4 +1,19 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
+import {
+	View,
+	Text,
+	StyleSheet,
+	Image,
+	Pressable,
+	PermissionsAndroid,
+	Alert,
+	Button,
+} from 'react-native';
+
+import MapView, {PROVIDER_GOOGLE, Marker} from 'react-native-maps';
+import Geolocation from 'react-native-geolocation-service';
+
+ import React, {useState, useEffect} from 'react';
 import {
 	View, 
 	Text,
@@ -9,9 +24,6 @@ import {
 	Alert,
 	Button,
 } from 'react-native';
-
-import {API_KEY} from '../constants';
-
 
 import { BottomBar } from '../components/BottomBar';
 import { LocButton } from '../components/LocButton';
@@ -69,76 +81,76 @@ const onPressFun = () => {
 	return('');
 }
 
-const Pickup = ({nav, route}) => {
-	const pickupLoc = route.params.pickupLoc;
-	const description = route.params.pLocDesc;
+const MapContainer = ({navigation}) => {
+// export default class MapContainer extends React.Component {
 
-	return(
-		<Pressable
-			onPress={() => nav.push('SearchLocPickup')}
-			style={styles.pickup}
-		>
-			<View style={{...styles.buttonContainer, left: 50,}}>
-				<Image 
-				style={{
-					height: 25,
-					width: 25,
-					marginRight: 25,
-				}} 
-				source={require('../assets/images/icons/target.png')} />
-				<Text style={{color: 'white', fontSize: 14,}}>Pick Up:  <Text style={{fontWeight: 'bold', fontSize: 16,}}> {description.substring(0,15)}... </Text></Text>
-			</View>
-		</Pressable>
-	);
-}
+// 	state = {
+// 		region: {},
+// 		locations: [],
+// 	};
 
-const Suggestions = ({nav, route}) => {
-	return(
-		<View 
-			style={{
-				width: '100%',
-				alignItems: 'flex-end',
-				position: 'absolute',
-				bottom: 125,
-				right: -10,
-			}}
-		>
-			<LocButton
-				locType={3}
-				styles={{
-					backgroundColor: '#d9d9d9',
-					marginTop: 10,
-				}}
-				textColor={'black'}
-				textColor={'black'}
-				text1={''}
-				text2={'Location 1'}
-				nav={nav}
-				route={route}
+// 	componentDidMount() {
+// 		this.getInitialState();
+// 	}
 
-			/>
+// 	getInitialState() {
+// 		getLocation().then(data => {
+// 			this.updateState({
+// 				latitude: data.latitude,
+// 				longitude: data.longitude,
+// 			});
+// 		});
+// 	}
 
-			<LocButton
-				locType={3}
-				styles={{
-					backgroundColor: '#d9d9d9',
-					marginTop: 10,
+// 	updateState(location) {
+// 		this.setState({
+// 			region: {
+// 				latitude: location.latitude,
+// 				longitude: location.longitude,
+// 				latitudeDelta: 0.003,
+// 				longitudeDelta: 0.003,
+// 			},
+// 		});
+// 	}
 
-				}}
-				textColor={'black'}
-				textColor={'black'}
-				text1={''}
-				text2={'Location 2'}
-				nav={nav}
-				route={route}
-			/>
-		</View>
-	);
-}
+// 	getCoordsFromName(loc) {
+// 		this.updateState({
+// 			latitude: loc.lat,
+// 			longitude: loc.lng,
+// 		});
+// 	}
 
-const MainScreen = ({navigation, route}) => {
-	const pickup = route.params.pickupLoc;
-	const pDesc = route.params.pLocDesc;
+// 	onMapRegionChange(region) {
+// 		this.setState({ region });
+// 	}
+
+
+
+	const [currentLocation, setCurrentLocation] = useState(null);
+	const [locationPermission, setLocationPermission] = useState(false);
+
+	const checkPermission = async () => {
+    	try {
+    		const granted = await PermissionsAndroid.request(
+          PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
+          {
+            title: 'Location Permission',
+            message: 'This app requires access to your location.',
+            buttonNeutral: 'Ask Me Later',
+            buttonNegative: 'Cancel',
+            buttonPositive: 'OK',
+          }
+
+	      );
+				if (granted === PermissionsAndroid.RESULTS.GRANTED) {
+	        setLocationPermission('granted');
+	      } else {
+	        setLocationPermission('denied');
+	      }    	
+	    } catch (error) {
+	    		Alert.alert(error);
+	    }
+    };
 
 
 
@@ -146,7 +158,7 @@ const MainScreen = ({navigation, route}) => {
     Geolocation.getCurrentPosition(
       (position) => {
         const { latitude, longitude } = position.coords;
-        setPickup({ latitude, longitude });
+        setCurrentLocation({ latitude, longitude });
       },
       (error) => {
         Alert.alert(error);
@@ -155,26 +167,39 @@ const MainScreen = ({navigation, route}) => {
     );
   };
 
+  useEffect(() => {
+    checkPermission()
+    // handleGetCurrentLocation();
+    .then(handleGetCurrentLocation());
+  }, []);
+
   return (
     <View style={styles.container}>
+    	{locationPermission ? (
+    		console.log('location permission granted')
+    	) : (
+    		console.log('no location permission')
+    	)
+    	}
+
     	{/*<MapRegion currentLocation={currentLocation} nav={navigation}/>*/}
 
     	{
-    		pickup ? (
-    				console.log(pDesc + " " + pickup.latitude)
+    		currentLocation ? (
+    				console.log(currentLocation)
     			) : (
     				console.log('no current location')
     			)
     	}
 
     	<View style={styles.mapregion}>
-				{pickup ? (
+				{currentLocation ? (
 					<MapView 
 						provider={PROVIDER_GOOGLE}
 						style={styles.map}
 						region={{
-							latitude: route.params.pickupLoc.latitude,
-		          longitude: route.params.pickupLoc.longitude,
+							latitude: currentLocation.latitude,
+		          longitude: currentLocation.longitude,
 		          latitudeDelta: 0.0922,
 		          longitudeDelta: 0.0421,
 						}}
@@ -183,8 +208,8 @@ const MainScreen = ({navigation, route}) => {
 						<Marker
 		            draggable
 		            coordinate={{
-		              latitude: route.params.pickupLoc.latitude,
-		              longitude: route.params.pickupLoc.longitude,
+		              latitude: currentLocation.latitude,
+		              longitude: currentLocation.longitude,
 		            }}
 		            onDragEnd={
 		              (e) => alert(JSON.stringify(e.nativeEvent.coordinate))
@@ -200,10 +225,7 @@ const MainScreen = ({navigation, route}) => {
 				)}
 				
 
-					<Pickup 
-						nav={navigation} 
-						route={route}
-						/>
+					<Pickup nav={navigation}/>
 					<LocButton
 						locType={2}
 						styles={{
@@ -218,18 +240,17 @@ const MainScreen = ({navigation, route}) => {
 						text2={'Search Drop off'}
 						textColor={'white'}
 						nav={navigation}
-						route={route}
 					/>
 			</View>
 
-    	<Suggestions nav={navigation} route={route}/>
+    	<Suggestions nav={navigation}/>
 			<BottomBar />
 
     </View>
   );
 };
 
-export default MainScreen;
+export default MapContainer;
 
 const mapStyle = [
   {elementType: 'geometry', stylers: [{color: '#242f3e'}]},

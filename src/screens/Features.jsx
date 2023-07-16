@@ -38,11 +38,7 @@ const styles = StyleSheet.create({
 	},
 });
 
-const onPressFun = () => {
-	return('');
-}
-
-const Features = () => {
+const Features = ({navigation}) => {
 	return(
 		<View style={styles.container}>
 			<Carousel
@@ -78,7 +74,7 @@ const Features = () => {
 				}]}
 			/>
 			<Image style={styles.car} source={require('../assets/images/car.png')} />
-			<Pressable onPress={onPressFun} style={styles.skipButton}><Text style={styles.skip}> Skip </Text></Pressable>
+			<Pressable onPress={() => navigation.push('UserReg')} style={styles.skipButton}><Text style={styles.skip}> Skip </Text></Pressable>
 		</View>
 
 	);

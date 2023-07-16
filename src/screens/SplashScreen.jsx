@@ -3,6 +3,7 @@ import {
 	View, Text, StyleSheet, Image
 } from 'react-native';
 
+
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
@@ -24,6 +25,7 @@ const styles = StyleSheet.create({
 });
 
 export const SplashScreen = () => {
+
 	return(
 		<View style={styles.container}>
 			<Image style = {styles.logo} source={require('../assets/images/Logo.png')} />
@@ -32,5 +34,7 @@ export const SplashScreen = () => {
 
 	);
 };
+
+
 
 export default SplashScreen;

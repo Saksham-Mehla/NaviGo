@@ -5,9 +5,9 @@ import {
 	TextInput,
 	Button, 
 	StyleSheet, 
-	TouchableHighlight,
 	Image,
 	Alert,
+	Pressable,
 } from 'react-native';
 
 
@@ -15,9 +15,10 @@ const styles = StyleSheet.create({
 	container: {
 		flex: 1,
 		backgroundColor: 'white',
-		alignItems: 'left',
+		alignItems: 'center',
 		justifyContent: 'flex-start',
-		padding: 50,
+		width: '100%',
+		height: '100%',
 	},
 	title: {
 		textAlign: 'center',
@@ -25,18 +26,23 @@ const styles = StyleSheet.create({
 		fontSize: 25,
 		fontWeight: 'bold',
 		paddingBottom: 20,
+		marginTop: 100,
 	},
 	text: {
 		color: '#a0a0a0',
 		textAlign: 'center',
+		marginVertical: 5, 
+		fontSize: 14,
 	},
 	otpbutton: {
 		backgroundColor: '#5367ff',
-    height: 40,
-    width: 300,
+    height: 50,
+    width: '85%',
     alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: 5,
+    borderRadius: 10,
+    position: 'absolute',
+    bottom: 60,
 	},	
 	input: {
 		width: 40,
@@ -45,40 +51,43 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     borderColor: '#5367ff',
     borderWidth: 1,
-    // paddingLeft: 15,
     fontSize: 13,
     borderRadius: 5,
     fontSize: 20,
-    marginRight: 15,
+    marginHorizontal: 10,
 	}
 });
 
-const OTPButton = () => {
+const OTPButton = ({nav}) => {
   return(
-    <View style={styles.otpbutton}>
+    <Pressable onPress={() => nav.navigate('MainScreen')} style={styles.otpbutton}>
       <Text style={{fontSize: 15, color:'white',}}> Verify OTP </Text>
-    </View>
+    </Pressable>
   );
 }
 
-const BackButton = () => {
+const BackButton = ({nav}) => {
 	return(
-		<View 
+		<Pressable 
+		onPress={() => nav.navigate('PhoneNum')}
 		style={{
 			height: 30,
 			width: 30,
-			marginTop: -20,
-			marginBottom: 50,
-			marginLeft: -20, 
+			top: 30,
+			left: 30, 
 			borderRadius: 30,
+			position: 'absolute',
 		}}>
 			<Image style={{width:30, height: 30,}} source={require('../assets/images/icons/back1.png')} />
-		</View>
+		</Pressable>
 	);
 }
 
+const onPressFun = () => {
+	return('');
+}
 
-const Otp = () => {
+const Otp = ({navigation}) => {
 
 	const [D1, onChangeD1] = React.useState('');
 	const [D2, onChangeD2] = React.useState('');
@@ -88,7 +97,7 @@ const Otp = () => {
 
   return (
     <View style={styles.container}>
-			<BackButton />			     
+			<BackButton nav={navigation}/>			     
     	<Text style={styles.title}>Verify your OTP</Text>
       <Text style={styles.text}>OTP sent to 9654xxxxxx</Text>
       <View 
@@ -96,11 +105,10 @@ const Otp = () => {
       		flexDirection: 'row', 
       		backgroundColor: '#ffffff',
 			    height: 52,
-			    width: 300,
+			    width: '100%',
 			    alignItems: 'center',
 			    justifyContent: 'center',
 			    marginVertical: 10,
-			    marginLeft: 5,
       	}}>
 
       	<TextInput 
@@ -142,17 +150,12 @@ const Otp = () => {
 
       </View>
       
-      <Text style={styles.text}>Didn't receive OTP? <Text style={{color: '#5367ff',}}>Resend OTP</Text></Text>
+      <View style={{flexDirection: 'row'}}>
+      	<Text style={styles.text}>Didn't receive OTP? </Text>
+      	<Pressable onPress={onPressFun} style={{justifyContent: 'center', alignItems: 'center'}}><Text style={{color: '#5367ff',}}>Resend OTP</Text></Pressable>
+      </View>
 
-      <TouchableHighlight 
-          onPress = {() => Alert.alert('Login')}
-          activeOpacity={1}
-          underlayColor='#ffffff'
-          style={{position: 'absolute', bottom: 70, left: 45,}}
-          >
-          
-          <OTPButton />
-       </TouchableHighlight>
+      <OTPButton nav={navigation}/>
 
     </View>
   );

@@ -8,6 +8,7 @@ import {
 	TouchableHighlight,
 	Image,
 	Alert,
+	Pressable,
 } from 'react-native';
 
 
@@ -53,17 +54,18 @@ const styles = StyleSheet.create({
 	}
 });
 
-const OTPButton = () => {
+const OTPButton = ({nav}) => {
   return(
-    <View style={styles.otpbutton}>
+    <Pressable onPress={() => nav.navigate('Otp')} style={styles.otpbutton}>
       <Text style={{fontSize: 15, color:'white',}}> Send OTP </Text>
-    </View>
+    </Pressable>
   );
 }
 
-const BackButton = () => {
+const BackButton = ({nav}) => {
 	return(
-		<View 
+		<Pressable 
+		onPress={() => nav.navigate('UserLogin')}
 		style={{
 			height: 30,
 			width: 30,
@@ -73,18 +75,18 @@ const BackButton = () => {
 			borderRadius: 30,
 		}}>
 			<Image style={{width:30, height: 30,}} source={require('../assets/images/icons/back1.png')} />
-		</View>
+		</Pressable>
 	);
 }
 
 
-const PhoneNum = () => {
+const PhoneNum = ({navigation}) => {
 
 	const [phone, onChangePhone] = React.useState('');
 
   return (
     <View style={styles.container}>
-			<BackButton />			     
+			<BackButton nav={navigation}/>			     
     	<Text style={styles.title}>Let's verify your Phone Number</Text>
       <Text style={styles.text}>Enter your phone number</Text>
       <TextInput 
@@ -96,17 +98,9 @@ const PhoneNum = () => {
           maxLength={10}
           
         />
-      <Text style={styles.text}>We'll send an OTP to this phone number</Text>
-
-      <TouchableHighlight 
-          onPress = {() => Alert.alert('Login')}
-          activeOpacity={1}
-          underlayColor='#ffffff'
-          style={{position: 'absolute', bottom: 70, left: 45,}}
-          >
+      <Text style={{color: '#a0a0a0', fontSize: 12, marginVertical: 5,}}>We'll send an OTP to this phone number</Text>
           
-          <OTPButton />
-       </TouchableHighlight>
+      <OTPButton nav={navigation} />
 
     </View>
   );

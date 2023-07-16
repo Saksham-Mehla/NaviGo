@@ -6,12 +6,11 @@ import {
   Button, 
   TextField,
   StyleSheet,
-  TouchableHighlight,
   Image,
   TextInput,
-  ScrollView,
+  Pressable,
 } from 'react-native';
-import { Slide } from './Slide';
+
 import { Or } from '../components/Or';
 
 const styles = StyleSheet.create({
@@ -20,7 +19,6 @@ const styles = StyleSheet.create({
     width: '95%',
     alignItems: 'center',
     justifyContent: 'center',
-    // height: '60%',
     backgroundColor: 'white',
     borderRadius: 23,
   },
@@ -71,24 +69,28 @@ const styles = StyleSheet.create({
   },
 });
 
-const GmailButton = () => {
+const onPressFun = () => {
+  return('');
+}
+
+const GmailButton = ({nav}) => {
   return(
-    <View style={styles.gmailbutton}>
+    <Pressable onPress={() => nav.navigate('PhoneNum')} style={styles.gmailbutton}>
       <Image style={{height: 25, width: 25, marginRight: 8}} source={require('../assets/images/icons/gmail.png')} />
       <Text style={{fontSize: 15, color:'black', fontWeight: 'bold'}}>Gmail</Text>
-    </View>
+    </Pressable>
   );
 }
 
-const SignupButton = () => {
+const SignupButton = ({nav}) => {
   return(
-    <View style={styles.signupbutton}>
+    <Pressable onPress={() => nav.navigate('PhoneNum')} style={styles.signupbutton}>
       <Text style={{fontSize: 15, color:'white',}}> SIGN UP </Text>
-    </View>
+    </Pressable>
   );
 }
 
-const SignupForm = () => {
+const SignupForm = (props) => {
 
   const [email, onChangeEmail] = React.useState('');
   const [password, onChangePassword] = React.useState('');
@@ -100,13 +102,7 @@ const SignupForm = () => {
         <Text style={{...styles.text, fontWeight: 'bold', fontSize: 18, paddingBottom: 20,}}>Sign up</Text>
         {/*<Text style={{...styles.text, fontSize: 13, textAlign: 'left', paddingBottom: 10, color: '#d9d9d9'}}>Login via</Text>*/}
 
-        <TouchableHighlight 
-          onPress = {() => Alert.alert('Gmail')}
-          activeOpacity={1}
-          underlayColor='#ffffff'>
-
-          <GmailButton />
-        </TouchableHighlight>
+        <GmailButton nav={props.nav}/>
 
         <Or />
 
@@ -136,15 +132,12 @@ const SignupForm = () => {
           secureTextEntry={true}
         />
 
-        <TouchableHighlight 
-          onPress = {() => Alert.alert('Sign up')}
-          activeOpacity={1}
-          underlayColor='#ffffff'>
+        <SignupButton nav={props.nav}/>
 
-          <SignupButton />
-        </TouchableHighlight>
-
-        <Text style={{...styles.text, fontSize: 13, textAlign: 'center', paddingBottom: 10,}}>Already have an account? <Text style={{color: '#5367FF'}}>Log in</Text></Text>
+        <View style={{justifyContent: 'center', alignItems: 'center', marginBottom: 10, flexDirection: 'row'}}>
+          <View><Text style={{...styles.text, fontSize: 13, textAlign: 'center', }}>Already have an account? </Text></View>
+          <Pressable style={{alignItems: 'center', justifyContent: 'center',}} onPress={() => props.nav.navigate('UserLogin')}><Text style={{color: '#5367FF'}}>Log In</Text></Pressable>
+        </View>
       </View>
     </View>
   );
